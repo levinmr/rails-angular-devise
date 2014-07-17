@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= RailsAngularDevise::Application.config.app_name %></title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id='notification'>
+    <% if flash[:notice] %>
+      <div class='alert alert-success'>
+        <%= link_to "×", "", class: "close" %>
+        <%= flash[:notice] %>
+      </div>
+    <% end %>
+    <% if flash[:alert] %>
+      <div class='alert'>
+        <%= link_to "×", "", class: "close" %>
+        <%= flash[:alert] %>
+      </div>
+    <% end %>
+    <% if flash[:error] %>
+      <div class='alert alert-error'>
+        <%= link_to "×", "", class: "close" %>
+        <%= flash[:error] %>
+      </div>
+    <% end %>
+  </div>
+
+  <%= yield %>
+
+</body>
+</html>

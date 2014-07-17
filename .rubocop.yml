@@ -1,0 +1,18 @@
+LineLength:
+  Enabled: true
+  Max: 120
+
+MethodLength:
+  Max: 35
+
+SpaceInsideParens:
+  Enabled: false
+
+Encoding:
+  Enabled: false
+
+ConstantName:
+  Enabled: false
+
+SingleSpaceBeforeFirstArg:
+  Enabled: false

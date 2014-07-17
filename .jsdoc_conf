@@ -1,0 +1,27 @@
+/*
+	jsdoc configuration.
+	Assumes that it's run from Rails Root
+*/
+
+{
+	// source files to use
+	_: ['lib/assets/javascripts', 'app/assets/javascripts'],
+
+	// output directory
+	d: "doc/generated/javascripts",
+
+	// template to use
+	t: "doc/support/jsdoc-toolkit/templates/codeview",
+
+	// document all functions, even uncommented ones
+	a: true,
+
+	// including those marked @private
+	p: true,
+
+	// Descend recursively into source directories
+	r: true,
+
+	// some extra variables to include
+	D: {title: "JavaScript Documentation"},
+}
