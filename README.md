@@ -43,14 +43,14 @@ The template uses rails server-side pages to authenticate the user, and then it 
 
 ### What you get preconfigured:
 
-- Ruby on Rails app and file structure
-- Angular app and file structure
+- Ruby on Rails app and directory structure
+- Angular app and directory structure
 - Rails User model
-- Server side Sign-in/Registration pages
+- Server side Sign-in/Registration
 - Rails hand off to Angular on sign-in
-- Standard Angular app folder structure
 - Angular asset pipeline integration
 - Ruby and JavaScript testing environments
+- Ruby and JavaScript code coverage
 - Yard documentation for Ruby
 - JSDoc documentation for JavaScript
 - Rubocop and JSHint config files
