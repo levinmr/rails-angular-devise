@@ -1,0 +1,13 @@
+
+<!DOCTYPE html>
+<html class='no-js'>
+<head>
+  <title><%= RailsAngularDevise::Application.config.app_name %></title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'ng-application' %>
+  <%= csrf_meta_tags %>
+</head>
+
+  <%= yield %>
+
+</html>

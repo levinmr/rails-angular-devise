@@ -1,0 +1,12 @@
+-o doc/generated/app
+-m markdown
+--plugin yard-rails
+--protected
+--private
+--title "Rails Application Documentation"
+--type-tag      url:URL
+--type-name-tag argument:"Required Argument"
+--type-name-tag optional_argument:"Optional Argument"
+--tag           example_response:"Example Response"
+-
+doc/*.md

@@ -1,0 +1,20 @@
+
+<body ng-app="myApp">
+  <div class="container">
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        <li class="active"><a ng-href="#">Home</a></li>
+        <li><a ng-href="#/about">About</a></li>
+        <li><a ng-href="#">Contact</a></li>
+        <li><a href='/users/sign_out' target='_self' data-method='delete'>Sign Out</a></li>
+      </ul>
+      <h3 class="text-muted">angular</h3>
+    </div>
+
+    <div ng-view=""></div>
+
+    <div class="footer">
+      <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+    </div>
+  </div>
+</body>
