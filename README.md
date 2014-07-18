@@ -51,6 +51,7 @@ The template uses rails server-side pages to authenticate the user, and then it 
 - Angular asset pipeline integration
 - Ruby and JavaScript testing environments
 - Ruby and JavaScript code coverage
+- Travis CI build info
 - Yard documentation for Ruby
 - JSDoc documentation for JavaScript
 - Rubocop and JSHint config files
@@ -85,6 +86,10 @@ The template uses rails server-side pages to authenticate the user, and then it 
 - Code coverage reports are generated automatically with each of the above commands
     - Coverage reports are located in spec/coverage
     - Istanbul node package is required for JS coverage report
+
+### Continuous Integration
+
+- Set up your repository to be watched by [TravisCI](https://travis-ci.org/) and your build and tests will be run automatically by travis with every push.  Travis config file is included and set up with the standard build info and test suite commands
 
 ### Generating Documentation
 
