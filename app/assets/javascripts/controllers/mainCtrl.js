@@ -1,12 +1,12 @@
 'use strict';
 
-// AboutCtrl
+// MainCtrl
 // Controller of the angularApp
 
-angular.module('myApp').controller( 'AboutCtrl', function($scope) {
+angular.module( 'myApp' ).controller( 'MainCtrl', ['$scope', function( $scope ) {
   $scope.awesomeThings = [
     'HTML5 Boilerplate',
     'AngularJS',
     'Karma'
   ];
-} );
+} ] );

@@ -20,6 +20,9 @@
 /doc/generated/app
 /doc/generated/javascripts
 
+# Ignore compiled assets
+/public/assets
+
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
