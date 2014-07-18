@@ -4,9 +4,8 @@ rvm:
 install: bundle install
 before_script:
   - psql -c 'create database travis_ci_test;' -U postgres
-before_script:
   - touch config/database.yml
-before_script:
   - cp config/database.yml.travis config/database.yml
-script: bundle exec rspec
-script: bundle exec teaspoon
+script:
+  - bundle exec rspec
+  - bundle exec teaspoon
